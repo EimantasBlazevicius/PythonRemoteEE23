@@ -18,11 +18,12 @@ print(f"The text in the range is '{example_text[6:13]}'")
 
 # What are the every second character in the index range
 print(f"The text in the range is '{example_text[6:13:2]}'")
-print(f"The text in the range is '{example_text[::2]}'")
+print(f"The text in the range is '{example_text[::5]}'")
 # text[fromIndex:toIndex:step]
 
 # String reversed
 print(f"This is a reversed text {example_text[::-1]}")
+print(f"This is a reversed text {example_text[13:6:-1]}")
 
 # Upper/Lower case
 print("Converting texts to lower case or uppercase")
