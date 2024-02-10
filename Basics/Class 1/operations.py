@@ -17,4 +17,4 @@ print(2 == 2)  # Equal
 
 # Logical
 print("this" in "This text is this")
-print("this" not in "This text is this")
+print("x" not in "asdasdq")
