@@ -28,3 +28,8 @@ def show_entries(entries):
     print()
     for entry in entries:
         print(entry)
+
+
+if __name__ == "__main__":
+    greet("Some Random Text")
+    show_entries(['text', 'text2'])
