@@ -1,0 +1,3 @@
+id,name,age,city,potato_count
+1,Eim,30,asd,5
+1,eimant,35,Vava,2
