@@ -1,5 +1,1 @@
 id,name,age,city,potato_count
-1,Eim,30,asd,5
-2,Eimantas,30,Vilnius,5
-3,Gintare,30,Vilnius,5
-4,Potato,78,PotatoLand,15
