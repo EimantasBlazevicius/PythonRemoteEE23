@@ -6,7 +6,7 @@
 # "t" - text mode (default value).
 # "+" - updating mode (read / write).
 
-# f = open("example.txt")
+# f = open("example.txt", "r+")
 # print(f.readline())
 # f.close()
 

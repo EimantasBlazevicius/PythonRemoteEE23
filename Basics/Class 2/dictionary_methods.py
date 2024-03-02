@@ -33,9 +33,6 @@ print(sample_dict.get('food', 'DefaultValue'))
 # Deleting values form dictionary
 del sample_dict['favorite_color']
 deleted_value = sample_dict.pop('family')
-print(deleted_value)
+print(deleted_value, 'was deleted')
 
 print(json.dumps(sample_dict, indent=2))
-
-
-

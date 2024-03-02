@@ -11,7 +11,7 @@ cars.sort()
 # Get a count of certain cars
 print(f'Amount Volkswagen in the list: {cars.count("VW")}')
 # Get the index of certain record
-index_of_cupra = cars.index('Cupra')
+index_of_cupra = cars.index("Cupra")
 print(f"The index of Cupra in this list is: {index_of_cupra}")
 # Inserting at a certain index
 cars.insert(index_of_cupra, "Opel")

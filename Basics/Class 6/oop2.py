@@ -7,7 +7,7 @@ class Car:
 
     def __str__(self):
         return f"Brand: {self.brand}, {self.fuel}l in the tank, current speed {self.speed}"
-    
+
 
 car1 = Car("VW", 60, 90)
 car2 = Car("Opel", 55, 78, 2)

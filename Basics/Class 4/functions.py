@@ -20,7 +20,7 @@ def conditional():
 
 
 # takes parameter, return value, default value
-def better_conditional(number=19):
+def better_conditional(number=18):
     if number < 18:
         return "Go Home"
     return "You can come in"
