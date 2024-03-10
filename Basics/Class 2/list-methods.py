@@ -17,7 +17,7 @@ print(f"The index of Cupra in this list is: {index_of_cupra}")
 cars.insert(index_of_cupra, "Opel")
 print(cars)
 # Remove item form the list at the index
-cars.pop(index_of_cupra)
+deleted_item = cars.pop(index_of_cupra)
 # Remove the last item form the list
 cars.pop()
 # Reverse the list
