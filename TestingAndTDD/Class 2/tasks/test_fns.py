@@ -2,10 +2,13 @@ import fns
 
 
 # Task 1: Write a function to add two numbers
-def test_add_two_numbers():
-    assert fns.add(1, 2) == 3
-    assert fns.add(5, -5) == 0
-    assert fns.add(0, 0) == 0
+def test_is_isogram():
+    assert fns.is_isogram("Dermatoglyphics") == True
+    assert fns.is_isogram("isogram") == True
+    assert fns.is_isogram("aba") == False
+    assert fns.is_isogram("moOse") == False
+    assert fns.is_isogram("isIsogram") == False
+    assert fns.is_isogram("") == True
 
 
 # Task 2: Write a function to check if a number is prime

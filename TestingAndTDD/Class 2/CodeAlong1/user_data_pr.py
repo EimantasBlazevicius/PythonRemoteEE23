@@ -20,5 +20,5 @@ def filter_underage(people_list):
     return people_list
 
 
-with open("real.csv", "r") as f:
+with open("../../../PythonIntermediate/Class 1/csv_source.csv", "r") as f:
     print(prepare_data(f))
