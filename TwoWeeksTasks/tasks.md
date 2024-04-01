@@ -59,5 +59,17 @@ via console.</p>
 
 ## Some APIs action
 
-## Getting big files to reformat
+### 1. Weather API
+
+<p>using this API <a href="https://open-meteo.com/">https://open-meteo.com/</a>, docs:<a href="https://open-meteo.com/en/docs/">https://open-meteo.com/en/docs/</a>  build a weather
+forecast app, not need for anything complicated, just make it return some data for every day of one week forward.</p>
+
+### 2. Chuck Noris
+
+<p>Create an app to display one random Chcuk noris qoute on every run, use this: <a href="https://api.chucknorris.io/jokes/random">https://api.chucknorris.io/jokes/random</a></p>
+
+### 3.Using numbers API
+
+<p>Using numbers API make a "interesting facts about today app: <a href="http://numbersapi.com/4/1/date">http://numbersapi.com/4/1/date</a></p>
+
 
