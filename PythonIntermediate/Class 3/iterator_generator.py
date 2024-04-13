@@ -24,14 +24,13 @@ some_list2 = iter([10, 20, 30, 40, 50, 60, 70, 80, 90])  # Iterator
 
 
 # Generator
-def generator():
+def generator(some_number=0):
     some_text = "bla bla bla"
-    some_number = 0
     for _ in range(50):
         some_number += 1
         yield f'{some_text} - {some_number}'
         print('Yield Done its job')
 
 
-for item in generator():
+for item in generator(9):
     print(item)
