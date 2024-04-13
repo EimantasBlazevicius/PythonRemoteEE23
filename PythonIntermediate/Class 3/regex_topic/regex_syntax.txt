@@ -1,0 +1,24 @@
+.     - Any Character except new line
+\d    - Digit(0-9)
+\D    - Not a digit
+\w    - Word Character (a-z, A-Z, 0-9, _)
+\W    - Not a word character
+\s    - Whitespace(space, tab, new line)
+\S    - Not Whitespace
+
+\b    - Word Boundary
+\B    - Not a word Boundary
+^     - Beginning of the string
+$     - End of the string
+
+[]    - Matching characters or rules in the list
+[^ ]  - Not Matching characters ir rules in the list
+|     - OR
+()    - Group
+
+Quantifiers:
+*     - 0 or More
++     - 1 or More
+?     - 0 or One
+{3}   - Exact amount of occurrences
+{3,4} - From {x to y} of occurrences
