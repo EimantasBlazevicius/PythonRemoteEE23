@@ -6,7 +6,7 @@ abcDefghijklmNopqurtuvwxyZ
 1234567890
 Ha HaHa
 MetaCharacters (Need to be escaped):
-. ^ $ * + ? { } [ ] \ | ( )
+. ^ $ * + ? { } [ ] \\ | ( )
 lietuva.com
 ac
 +37060482010
