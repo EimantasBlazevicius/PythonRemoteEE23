@@ -32,5 +32,7 @@ def generator(some_number=0):
         print('Yield Done its job')
 
 
+random_generator = (i * 2 for i in [1, 2, 23, 6, 5, 4, 8, 5])
+
 for item in generator(9):
     print(item)
