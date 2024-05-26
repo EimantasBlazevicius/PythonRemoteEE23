@@ -18,14 +18,14 @@ bubble(sorting_list)
 
 
 def insertion(sortable):
-    indexing_range = range(1, len(sortable) + 1)
+    indexing_range = range(1, len(sortable))
     for index in indexing_range:
-        print(sortable)
         value_to_sort = sortable[index]
 
         while sortable[index - 1] > value_to_sort and index > 0:
             sortable[index], sortable[index - 1] = sortable[index - 1], sortable[index]
             index -= 1
+        print(sortable)
     return sortable
 
 
